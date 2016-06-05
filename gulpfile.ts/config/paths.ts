@@ -17,7 +17,7 @@ paths.typescript.baseConfig = path.join(paths.root, 'tsconfig.json');
 paths.typescript.appConfig = path.join(paths.source, 'tsconfig.json');
 
 // TSLint paths
-paths.tslint = path.join(paths.reports, 'tslint');
+paths.tslint = path.join(paths.reports, 'tslint', 'checkstyle.xml');
 
 // Typings
 paths.typings = path.join(paths.root, 'typings', 'browser.d.ts');

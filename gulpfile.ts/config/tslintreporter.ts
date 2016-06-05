@@ -2,8 +2,7 @@ import paths = require('./paths');
 
 const config = {
   sort: true,
-  filename: 'checkstyle.xml',
-  outputDir: paths.tslint
+  filename: paths.tslint
 };
 
 export = config;
