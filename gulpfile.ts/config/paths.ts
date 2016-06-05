@@ -39,6 +39,11 @@ paths.output.icons = path.join(paths.output.images, 'icons');
 paths.output.scripts = path.join(paths.output.assets, 'js');
 paths.output.styles = path.join(paths.output.assets, 'css');
 
+// Bundle paths
+paths.bundle = {};
+paths.bundle.entry = path.join(paths.output.app, 'main.js');
+paths.bundle.output = path.join(paths.output.app, 'app.js');
+
 // Source paths
 paths.sources = {};
 paths.sources.index = path.join(paths.source, 'index.html');
@@ -55,7 +60,7 @@ paths.sources.config = path.join(paths.config, 'config.ts.dist');
 paths.hardcoded = {};
 paths.hardcoded.base = '/app';
 paths.hardcoded.favicons = 'assets/img/icons/';
-paths.hardcoded.scripts = 'app/main.js';
+paths.hardcoded.scripts = 'app/app.js';
 
 // Scripts
 paths.scripts = {};
